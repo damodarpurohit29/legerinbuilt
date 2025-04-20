@@ -20,7 +20,7 @@ from django.urls import path
 from django.shortcuts import render
 
 urlpatterns = [
-    path('grappelli/', include('grappelli.urls')),
+    # path('grappelli/', include('grappelli.urls')),
     path('admin/', admin.site.urls),
     path('ledger/', include('django_ledger.urls', namespace='django_ledger')),
 ]
